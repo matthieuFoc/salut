@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prison Break</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="img/favicon.jpg" />
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+		
+	
+</head>
+<body>
+	
+	<header>
+		<img src="img/logo.png" class="logo">
+		<div class="menu">
+			<ul>
+				<li><a href="">Accueil</a></li>
+				<li><a href="">Histoire</a></li>
+				<li><a href="" id="none">Personnage</a></li>
+			
+				<li><input type="text" name="recherche" class="recherche" placeholder="Recherche">
+			<span class="icon"><img src="img/icon.png" class="fa fa-search" width=32></img></span></li>
+			</ul>
+		</div>
+  			<div id="menuToggle">
+    			<input type="checkbox" />
+    				<span></span>
+    				<span></span>
+   					<span></span>
+    			<ul id="menu">
+     				<a href="#"><li>Accueil</li></a>
+       				<a href="#"><li>Histoire</li></a>
+     				<a href="#"><li>Personnage</li></a>
+    			</ul>
+  			</div>
+		<a href="tel: +33608434691"><img src="img/tel.png" class="tel"></a>
+
+
+	</header>
+	<div id="in">
+		<div class="text">
+			<img src="img/fond.jpg" class="fond">
+			<h1>Synopsis</h1>
+			<p>		À cause d'une sombre machination, Lincoln Burrows, un petit truand, est accusé à tort d'avoir tué le frère de la vice-présidente des États-Unis. Condamné à mort, il est incarcéré dans le pénitencier d'État de Fox River, dans l'attente de son exécution.<br><br>
+				Son frère, Michael Scofield, un ingénieur surdoué, est convaincu de son innocence et va l'aider à s'évader
+			avant la date fatidique. Pour cela, il conçoit un plan ingénieux pour sortir de prison, et se fait tatouer les plans de celle-ci sur le torse, le dos et les bras, ainsi que diverses informations utiles à l'évasion et à la cavale, puis commet un braquage afin d'y être incarcéré à son tour. Une fois emprisonné à Fox River, Michael met en marche son plan afin de rendre la liberté à son frère.<br><br>
+				Toutefois, des événements imprévus viendront entraver le plan d'évasion que Michael Scofield a minutieusement	élaboré. Les deux frères devront notamment faire face aux agissements du Cartel, une organisation secrète qui s'avère être à l'origine de la conspiration qui a conduit Lincoln dans le couloir de la mort.<br>
+				Prêts à tout pour que Burrows soit exécuté comme prévu, les agents du Cartel et des services secrets vont causer bien des ennuis aux deux frères. De plus, ils devront faire équipe avec des détenus non prévus dans le plan initial.</p>
+		</div>
+		<div class="photo">
+			<div><img src="img/ms.jpg"><p>Mickael Scofield<br><br>Frère de Lincoln, Prisonnier de Fox River<br></p>
+			</div><div>
+			<img src="img/lb.jpg"><p>Lincoln BURROWS<br><br>Frère de Micheal, Condamné au couloir de la mort </p>
+			</div><div>
+			<img src="img/st.jpg"><p>Sara TANCREDI<br><br>Medecin de la prison, Fille du gouverneur de l'Illinois</p>
+			</div><div>
+			<img src="img/gt.jpg"><p>Fernando Sucre<br><br>Ami de Micheal, Prisonnier de Fox River<br></p>
+			</div>
+		</div>
+		<div class="bas">
+		<div class="map">
+			<h4>Prison de Fox River (Joliet)</h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.642167655701!2d-88.07456305544126!3d41.546664867716935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d5a48779cdbf3f9!2sFox+River!5e1!3m2!1sfr!2sfr!4v1517413726431" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		</div>
+		<div class="form">
+			<form>
+				<h4>Contact</h4>
+				<input type="text" name="nom" class="nom" placeholder="Nom">
+				<input type="text" name="prenom" class="prenom" placeholder="Prénom">
+				<input type="date" name="date" class="date" placeholder="Date de naissance">
+				<input type="text" name="vnai" class="vnai" placeholder="Ville de naissance">	
+				<input type="mail" name="mail" class="mail" placeholder="Adresse E-mail">
+				<input type="File" name="photo" class="photo">
+				<textarea placeholder="Entrez votre message"></textarea>
+				<input type="submit" name="vaider" value="Valider" class="valider">
+			</form>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>FOCQUEUR Matthieu - TPB</p>
+</footer>
+</body>
+</html>
